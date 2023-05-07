@@ -1,0 +1,2 @@
+{:objects {:User {:fields {:id        {:type ID}
+                           :firstName {:type String}}}}}

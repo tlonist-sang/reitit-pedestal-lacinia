@@ -1,0 +1,5 @@
+{:queries {:hello {:type    String
+                   :resolve :hello}
+           :user  {:type    :User
+                   :args    {:id {:type ID}}
+                   :resolve :get-user}}}

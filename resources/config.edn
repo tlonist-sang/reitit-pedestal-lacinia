@@ -1,0 +1,11 @@
+{:server/pedestal {:app #ig/ref :c24/app}
+ :c24/app         {:join? false
+                   :type  :jetty
+                   :port  3024
+                   :db    #ig/ref :db/mysql}
+ :db/mysql        {:dbname   "morningnote"
+                   :dbtype   "mysql"
+                   :host     "localhost"
+                   :port     3306
+                   :user     "root"
+                   :password ""}}
